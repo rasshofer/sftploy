@@ -1,0 +1,46 @@
+{
+  "name": "sftploy",
+  "version": "0.0.1",
+  "description": "A simple (CLI) tool to deploy stuff via SFTP",
+  "author": {
+    "name": "Thomas Rasshofer",
+    "email": "hello@thomasrasshofer.com",
+    "url": "http://thomasrasshofer.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rasshofer/sftploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rasshofer/sftploy/issues"
+  },
+  "main": "sftploy.js",
+  "keywords": [
+    "sftploy",
+    "ftp",
+    "deployment",
+    "cli"
+  ],
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "glob": "^7.1.1",
+    "inquirer": "^1.2.2",
+    "leprechaun": "0.0.2",
+    "lodash.isarray": "^4.0.0",
+    "lodash.merge": "^4.6.0",
+    "lodash.snakecase": "^4.1.1",
+    "nconf": "^0.8.4",
+    "scp2": "^0.5.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "jshint sftploy.js cli.js"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "sftploy": "cli.js"
+  }
+}
