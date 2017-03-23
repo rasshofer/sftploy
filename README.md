@@ -133,6 +133,9 @@ $ sftploy --exclude=*.jpg --exclude=*.png --exclude=node_modules/**/*
 
 ## Changelog
 
+* 0.0.2
+  * Add shebang
+  * Update dependencies
 * 0.0.1
   * Initial version
 
@@ -142,3 +145,9 @@ Copyright (c) 2016 [Thomas Rasshofer](http://thomasrasshofer.com/)
 Licensed under the MIT license.
 
 See LICENSE for more info.
+
+
+## Contributors
+
+- [@rasshofer](https://github.com/rasshofer)
+- [@roperzh](https://github.com/roperzh)
