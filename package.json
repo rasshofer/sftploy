@@ -23,9 +23,9 @@
     "cli"
   ],
   "dependencies": {
-    "bluebird": "^3.4.6",
+    "bluebird": "^3.5.0",
     "glob": "^7.1.1",
-    "inquirer": "^1.2.2",
+    "inquirer": "^3.0.6",
     "leprechaun": "0.0.2",
     "lodash.isarray": "^4.0.0",
     "lodash.merge": "^4.6.0",
