@@ -1,6 +1,6 @@
 {
   "name": "sftploy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple (CLI) tool to deploy stuff via SFTP",
   "author": {
     "name": "Thomas Rasshofer",
